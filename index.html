@@ -1,15 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-  <title>Spelio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Spelio, app di budgeting per pianificare entrate, spese, obiettivi di risparmio e abbonamenti Premium.">
+  <title>Spelio | Budgeting app</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Spelio</h1>
-  <p>Legal documents</p>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Spelio home">
+      <img src="assets/app_logo_mark.png" alt="" class="brand-mark">
+      <span>Spelio</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigazione principale">
+      <a href="#features">Funzioni</a>
+      <a href="#premium">Premium</a>
+      <a href="#screenshots">App</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
 
-  <ul>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="terms.html">Terms of Service</a></li>
-  </ul>
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Budgeting chiaro, decisioni piu serene</p>
+        <h1>Spelio</h1>
+        <p class="hero-lede">Organizza entrate, spese future, obiettivi di risparmio e budget in una dashboard semplice da consultare ogni giorno.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#screenshots">Scopri l'app</a>
+          <a class="button button-secondary" href="#premium">Vedi Premium</a>
+        </div>
+        <div class="trust-row" aria-label="Punti chiave">
+          <span>Pianificazione mensile</span>
+          <span>Obiettivi di risparmio</span>
+          <span>Premium via App Store e Google Play</span>
+        </div>
+      </div>
+
+      <div class="app-preview" aria-label="Anteprima interfaccia Spelio">
+        <div class="phone-frame">
+          <div class="phone-top"></div>
+          <div class="phone-card balance-card">
+            <span>Riepilogo mese</span>
+            <strong>+ EUR 820</strong>
+            <div class="mini-chart"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="phone-grid">
+            <div><span>Casa</span><strong>42%</strong></div>
+            <div><span>Cibo</span><strong>18%</strong></div>
+          </div>
+          <div class="phone-card goal-card">
+            <span>Obiettivo vacanze</span>
+            <strong>68%</strong>
+            <em><b></b></em>
+          </div>
+          <div class="phone-list">
+            <p><span></span> Bollette <strong>- EUR 96</strong></p>
+            <p><span></span> Rimborso <strong>+ EUR 120</strong></p>
+            <p><span></span> Shopping <strong>- EUR 38</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">Funzionalita principali</p>
+        <h2>Una vista completa sul tuo denaro, senza rumore.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon income"></div>
+          <h3>Entrate e spese future</h3>
+          <p>Pianifica il mese prima che accada, tenendo traccia degli impegni gia previsti.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon goals"></div>
+          <h3>Obiettivi di risparmio</h3>
+          <p>Segui i progressi dei tuoi traguardi e capisci quanto manca con indicatori chiari.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon budget"></div>
+          <h3>Budget per categoria</h3>
+          <p>Organizza casa, cibo, trasporti e altre categorie con una lettura immediata.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon insights"></div>
+          <h3>Riepiloghi leggibili</h3>
+          <p>Trasforma numeri sparsi in indicazioni pratiche per decidere con piu controllo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="premium" class="premium-band">
+      <div class="section-shell premium-layout">
+        <div>
+          <p class="eyebrow">Spelio Premium</p>
+          <h2>Strumenti avanzati per chi vuole pianificare meglio.</h2>
+          <p>Premium sblocca funzionalita evolute pensate per rendere la pianificazione piu precisa, completa e comoda nel tempo.</p>
+        </div>
+        <div class="premium-panel">
+          <ul>
+            <li>Obiettivi e categorie avanzate</li>
+            <li>Riepiloghi piu ricchi</li>
+            <li>Supporto alla pianificazione continuativa</li>
+          </ul>
+          <p>Le sottoscrizioni Premium sono gestite tramite Google Play e Apple App Store.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="screenshots section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">Screenshot app</p>
+        <h2>Placeholder pronti per le schermate ufficiali.</h2>
+      </div>
+      <div class="screenshot-grid">
+        <article class="screenshot-card">
+          <div class="mock-screen dashboard"></div>
+          <h3>Dashboard</h3>
+        </article>
+        <article class="screenshot-card">
+          <div class="mock-screen planning"></div>
+          <h3>Pianificazione</h3>
+        </article>
+        <article class="screenshot-card">
+          <div class="mock-screen goals-screen"></div>
+          <h3>Obiettivi</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="brand footer-brand" href="index.html">
+        <img src="assets/app_logo_mark.png" alt="" class="brand-mark">
+        <span>Spelio</span>
+      </a>
+      <p>App di finanza personale per pianificare entrate, spese, risparmi e budget.</p>
+      <nav aria-label="Documenti legali">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

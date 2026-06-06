@@ -1,16 +1,8 @@
 (function () {
-  var euCountries = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE'];
-  var euTimezones = ['Europe/Vienna','Europe/Brussels','Europe/Sofia','Europe/Zagreb','Asia/Nicosia','Europe/Prague','Europe/Copenhagen','Europe/Tallinn','Europe/Helsinki','Europe/Paris','Europe/Berlin','Europe/Athens','Europe/Budapest','Europe/Dublin','Europe/Rome','Europe/Riga','Europe/Vilnius','Europe/Luxembourg','Europe/Malta','Europe/Amsterdam','Europe/Warsaw','Europe/Lisbon','Atlantic/Madeira','Europe/Bucharest','Europe/Bratislava','Europe/Ljubljana','Europe/Madrid','Atlantic/Canary','Europe/Stockholm'];
 
   var language = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
   var isItalian = language.indexOf('it') === 0;
-  var localeParts = (navigator.language || '').split('-');
-  var region = localeParts.length > 1 ? localeParts[localeParts.length - 1].toUpperCase() : '';
-  var timezone = '';
-  try { timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (error) {}
 
-  var isEu = euCountries.indexOf(region) !== -1 || euTimezones.indexOf(timezone) !== -1;
-  var prices = isEu ? { monthly: '\u20AC2.99', annual: '\u20AC19.99' } : { monthly: '$2.99', annual: '$19.99' };
 
   var en = {
     'meta.home.title': 'Spelio | Budgeting app',
@@ -57,11 +49,8 @@
     'premium.hero.title': 'Spelio is useful for free. Premium makes it more powerful.',
     'premium.hero.text': 'Free gives you the essential tools to plan future expenses, income, spending and goals. Premium adds automations, unlimited months, personalization and more advanced analysis.',
     'premium.price.label': 'Premium',
-    'premium.price.from': 'from',
-    'premium.price.monthSuffix': '/month',
-    'premium.price.yearSuffix': '/year',
-    'premium.price.or': 'or',
-    'premium.price.savingsMini': 'with annual savings.',
+    'premium.price.monthlyLine': 'From \u20AC2.99/month',
+    'premium.price.annualLine': 'Or from \u20AC19.99/year with annual savings.',
     'premium.features.eyebrow': 'Why choose Premium',
     'premium.features.title': 'Advanced features for automating and personalizing your budget.',
     'premium.cards.months.title': 'Unlimited months',
@@ -104,10 +93,13 @@
     'premium.cta.title': 'Unlock advanced planning.',
     'premium.cta.text': 'Choose the monthly plan or the annual plan, designed for people who use Spelio all year.',
     'premium.cta.monthly': 'Monthly',
+    'premium.cta.monthlyPrice': 'From \u20AC2.99/month',
     'premium.cta.monthlyText': 'Flexible payment, month by month.',
     'premium.cta.annual': 'Annual',
+    'premium.cta.annualPrice': 'From \u20AC19.99/year',
     'premium.cta.annualText': 'The best value plan.',
     'premium.cta.savings': 'Save about 44% compared with monthly billing.',
+    'premium.pricingNote': 'Actual prices may vary by country, currency and store. The final price is always shown by Google Play or the App Store before purchase.',
     'screens.eyebrow': 'App screenshots',
     'screens.title': 'Real Spelio screens, ready to explore.',
     'screens.dashboard.title': 'Dashboard',
@@ -174,8 +166,6 @@
         });
       });
     }
-    document.querySelectorAll('[data-price="monthly"]').forEach(function (element) { element.textContent = prices.monthly; });
-    document.querySelectorAll('[data-price="annual"]').forEach(function (element) { element.textContent = prices.annual; });
     var title = document.querySelector('title');
     if (title) document.title = title.textContent;
   }

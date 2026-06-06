@@ -3,55 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Spelio, app di budgeting per pianificare entrate, spese, obiettivi di risparmio e abbonamenti Premium.">
-  <title>Spelio | Budgeting app</title>
+  <meta name="description" content="Spelio, app di budgeting per pianificare entrate, spese, obiettivi di risparmio e abbonamenti Premium." data-i18n-attr="content:meta.home.description">
+  <title data-i18n="meta.home.title">Spelio | App di budgeting</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Spelio home">
       <img src="assets/app_logo_mark.png" alt="" class="brand-mark">
       <span>Spelio</span>
     </a>
-    <nav class="site-nav" aria-label="Navigazione principale">
-      <a href="#features">Funzioni</a>
-      <a href="#premium">Premium</a>
-      <a href="#screenshots">App</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
+    <nav class="site-nav" aria-label="Navigazione principale" data-i18n-attr="aria-label:nav.aria">
+      <a href="#features" data-i18n="nav.features">Funzioni</a>
+      <a href="#premium" data-i18n="nav.premium">Premium</a>
+      <a href="#screenshots" data-i18n="nav.app">App</a>
+      <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
+      <a href="terms.html" data-i18n="nav.terms">Termini</a>
     </nav>
   </header>
 
   <main>
     <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="eyebrow">Budgeting chiaro, decisioni piu serene</p>
+        <p class="eyebrow" data-i18n="home.hero.eyebrow">Budgeting chiaro, decisioni piu serene</p>
         <h1>Spelio</h1>
-        <p class="hero-lede">Organizza entrate, spese future, obiettivi di risparmio e budget in una dashboard semplice da consultare ogni giorno.</p>
+        <p class="hero-lede" data-i18n="home.hero.lede">Organizza entrate, spese future, obiettivi di risparmio e budget in una dashboard semplice da consultare ogni giorno.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#screenshots">Scopri l'app</a>
-          <a class="button button-secondary" href="#premium">Vedi Premium</a>
+          <a class="button button-primary" href="#screenshots" data-i18n="home.hero.primaryCta">Scopri l'app</a>
+          <a class="button button-secondary" href="#premium" data-i18n="home.hero.secondaryCta">Vedi Premium</a>
         </div>
-        <div class="trust-row" aria-label="Punti chiave">
-          <span>Pianificazione mensile</span>
-          <span>Obiettivi di risparmio</span>
-          <span>Premium via App Store e Google Play</span>
+        <div class="trust-row" aria-label="Punti chiave" data-i18n-attr="aria-label:home.hero.trustAria">
+          <span data-i18n="home.hero.trust.monthly">Pianificazione mensile</span>
+          <span data-i18n="home.hero.trust.goals">Obiettivi di risparmio</span>
+          <span data-i18n="home.hero.trust.premium">Premium via App Store e Google Play</span>
         </div>
       </div>
 
-      <div class="app-preview" aria-label="Anteprima interfaccia Spelio">
+      <div class="app-preview" aria-label="Anteprima interfaccia Spelio" data-i18n-attr="aria-label:home.preview.aria">
         <div class="hero-showcase">
-          <div class="showcase-toolbar" aria-hidden="true">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <div class="showcase-toolbar" aria-hidden="true"><span></span><span></span><span></span></div>
           <div class="hero-screen">
-            <img src="assets/screenshots/home.jpg" width="1080" height="2002" alt="Schermata home completa di Spelio con riepilogo del budget e panoramica mensile" fetchpriority="high">
+            <img src="assets/screenshots/home.jpg" width="1080" height="2002" alt="Schermata home completa di Spelio con riepilogo del budget e panoramica mensile" fetchpriority="high" data-i18n-attr="alt:home.preview.alt">
           </div>
           <div class="showcase-stats" aria-hidden="true">
-            <span>Budget</span>
-            <strong>Overview completa</strong>
+            <span data-i18n="home.preview.badge">Budget</span>
+            <strong data-i18n="home.preview.caption">Overview completa</strong>
           </div>
         </div>
       </div>
@@ -59,29 +55,29 @@
 
     <section id="features" class="features section-shell">
       <div class="section-heading">
-        <p class="eyebrow">Funzionalita principali</p>
-        <h2>Una vista completa sul tuo denaro, senza rumore.</h2>
+        <p class="eyebrow" data-i18n="home.features.eyebrow">Funzionalita principali</p>
+        <h2 data-i18n="home.features.title">Una vista completa sul tuo denaro, senza rumore.</h2>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
           <div class="feature-icon income"></div>
-          <h3>Entrate e spese future</h3>
-          <p>Pianifica il mese prima che accada, tenendo traccia degli impegni gia previsti.</p>
+          <h3 data-i18n="home.features.income.title">Entrate e spese future</h3>
+          <p data-i18n="home.features.income.text">Pianifica il mese prima che accada, tenendo traccia degli impegni gia previsti.</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon goals"></div>
-          <h3>Obiettivi di risparmio</h3>
-          <p>Segui i progressi dei tuoi traguardi e capisci quanto manca con indicatori chiari.</p>
+          <h3 data-i18n="home.features.goals.title">Obiettivi di risparmio</h3>
+          <p data-i18n="home.features.goals.text">Segui i progressi dei tuoi traguardi e capisci quanto manca con indicatori chiari.</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon budget"></div>
-          <h3>Budget per categoria</h3>
-          <p>Organizza casa, cibo, trasporti e altre categorie con una lettura immediata.</p>
+          <h3 data-i18n="home.features.budget.title">Budget per categoria</h3>
+          <p data-i18n="home.features.budget.text">Organizza casa, cibo, trasporti e altre categorie con una lettura immediata.</p>
         </article>
         <article class="feature-card">
           <div class="feature-icon insights"></div>
-          <h3>Riepiloghi leggibili</h3>
-          <p>Trasforma numeri sparsi in indicazioni pratiche per decidere con piu controllo.</p>
+          <h3 data-i18n="home.features.insights.title">Riepiloghi leggibili</h3>
+          <p data-i18n="home.features.insights.text">Trasforma numeri sparsi in indicazioni pratiche per decidere con piu controllo.</p>
         </article>
       </div>
     </section>
@@ -89,221 +85,91 @@
     <section id="premium" class="premium-band">
       <div class="section-shell premium-hero">
         <div class="premium-copy">
-          <p class="eyebrow">Spelio Premium</p>
-          <h2>Spelio &egrave; utile gi&agrave; gratis. Premium lo rende pi&ugrave; potente.</h2>
-          <p>La versione Free offre gli strumenti essenziali per pianificare spese future, entrate, uscite e obiettivi. Premium aggiunge automazioni, mesi illimitati, personalizzazione e analisi pi&ugrave; avanzate.</p>
+          <p class="eyebrow" data-i18n="premium.hero.eyebrow">Spelio Premium</p>
+          <h2 data-i18n="premium.hero.title">Spelio e utile gia gratis. Premium lo rende piu potente.</h2>
+          <p data-i18n="premium.hero.text">La versione Free offre gli strumenti essenziali per pianificare spese future, entrate, uscite e obiettivi. Premium aggiunge automazioni, mesi illimitati, personalizzazione e analisi piu avanzate.</p>
         </div>
         <div class="premium-price-mini">
-          <span>Premium</span>
-          <strong>da 2,99 &euro;/mese</strong>
-          <p>oppure 19,99 &euro;/anno con risparmio annuale.</p>
+          <span data-i18n="premium.price.label">Premium</span>
+          <strong><span data-i18n="premium.price.from">da</span> <span data-price="monthly">&euro;2.99</span><span data-i18n="premium.price.monthSuffix">/mese</span></strong>
+          <p><span data-i18n="premium.price.or">oppure</span> <span data-price="annual">&euro;19.99</span><span data-i18n="premium.price.yearSuffix">/anno</span> <span data-i18n="premium.price.savingsMini">con risparmio annuale.</span></p>
         </div>
       </div>
 
       <div class="section-shell premium-deep-dive">
         <div class="section-heading premium-heading">
-          <p class="eyebrow">Perch&eacute; scegliere Premium</p>
-          <h2>Funzioni avanzate per chi vuole automatizzare e personalizzare il budget.</h2>
+          <p class="eyebrow" data-i18n="premium.features.eyebrow">Perche scegliere Premium</p>
+          <h2 data-i18n="premium.features.title">Funzioni avanzate per chi vuole automatizzare e personalizzare il budget.</h2>
         </div>
         <div class="premium-feature-grid">
-          <article class="premium-feature-card">
-            <span class="premium-emoji" aria-hidden="true">&#128467;&#65039;</span>
-            <h3>Mesi illimitati</h3>
-            <p>Supera il limite dei 12 mesi e pianifica tutto il tempo che desideri.</p>
-          </article>
-          <article class="premium-feature-card">
-            <span class="premium-emoji" aria-hidden="true">&#128260;</span>
-            <h3>Entrate e spese ricorrenti</h3>
-            <p>Automatizza movimenti periodici come stipendio, affitto, abbonamenti e rate.</p>
-          </article>
-          <article class="premium-feature-card">
-            <span class="premium-emoji" aria-hidden="true">&#127919;</span>
-            <h3>Obiettivi multipli</h3>
-            <p>Gestisci pi&ugrave; obiettivi di risparmio contemporaneamente.</p>
-          </article>
-          <article class="premium-feature-card">
-            <span class="premium-emoji" aria-hidden="true">&#127991;&#65039;</span>
-            <h3>Categorie personalizzate</h3>
-            <p>Crea categorie con emoji e colori personalizzati.</p>
-          </article>
-          <article class="premium-feature-card">
-            <span class="premium-emoji" aria-hidden="true">&#128680;</span>
-            <h3>Alert intelligenti</h3>
-            <p>Ricevi avvisi automatici sulle previsioni future e sui punti da controllare.</p>
-          </article>
-          <article class="premium-feature-card">
-            <span class="premium-emoji" aria-hidden="true">&#128202;</span>
-            <h3>Grafici avanzati</h3>
-            <p>Analisi e visualizzazioni pi&ugrave; dettagliate per capire meglio l'andamento del budget.</p>
-          </article>
-          <article class="premium-feature-card wide-feature">
-            <span class="premium-emoji" aria-hidden="true">&#10024;</span>
-            <h3>Desideri trasformabili</h3>
-            <p>Trasforma un desiderio in un obiettivo di risparmio concreto quando vuoi iniziare a pianificarlo.</p>
-          </article>
+          <article class="premium-feature-card"><span class="premium-emoji" aria-hidden="true">&#128467;&#65039;</span><h3 data-i18n="premium.cards.months.title">Mesi illimitati</h3><p data-i18n="premium.cards.months.text">Supera il limite dei 12 mesi e pianifica tutto il tempo che desideri.</p></article>
+          <article class="premium-feature-card"><span class="premium-emoji" aria-hidden="true">&#128260;</span><h3 data-i18n="premium.cards.recurring.title">Entrate e spese ricorrenti</h3><p data-i18n="premium.cards.recurring.text">Automatizza movimenti periodici come stipendio, affitto, abbonamenti e rate.</p></article>
+          <article class="premium-feature-card"><span class="premium-emoji" aria-hidden="true">&#127919;</span><h3 data-i18n="premium.cards.goals.title">Obiettivi multipli</h3><p data-i18n="premium.cards.goals.text">Gestisci piu obiettivi di risparmio contemporaneamente.</p></article>
+          <article class="premium-feature-card"><span class="premium-emoji" aria-hidden="true">&#127991;&#65039;</span><h3 data-i18n="premium.cards.categories.title">Categorie personalizzate</h3><p data-i18n="premium.cards.categories.text">Crea categorie con emoji e colori personalizzati.</p></article>
+          <article class="premium-feature-card"><span class="premium-emoji" aria-hidden="true">&#128680;</span><h3 data-i18n="premium.cards.alerts.title">Alert intelligenti</h3><p data-i18n="premium.cards.alerts.text">Ricevi avvisi automatici sulle previsioni future e sui punti da controllare.</p></article>
+          <article class="premium-feature-card"><span class="premium-emoji" aria-hidden="true">&#128202;</span><h3 data-i18n="premium.cards.charts.title">Grafici avanzati</h3><p data-i18n="premium.cards.charts.text">Analisi e visualizzazioni piu dettagliate per capire meglio l'andamento del budget.</p></article>
+          <article class="premium-feature-card wide-feature"><span class="premium-emoji" aria-hidden="true">&#10024;</span><h3 data-i18n="premium.cards.wishes.title">Desideri trasformabili</h3><p data-i18n="premium.cards.wishes.text">Trasforma un desiderio in un obiettivo di risparmio concreto quando vuoi iniziare a pianificarlo.</p></article>
         </div>
       </div>
     </section>
 
     <section class="premium-compare section-shell" aria-labelledby="premium-compare-title">
       <div class="section-heading">
-        <p class="eyebrow">Free vs Premium</p>
-        <h2 id="premium-compare-title">Free copre le basi. Premium sblocca automazioni e funzioni avanzate.</h2>
+        <p class="eyebrow" data-i18n="compare.eyebrow">Free vs Premium</p>
+        <h2 id="premium-compare-title" data-i18n="compare.title">Free copre le basi. Premium sblocca automazioni e funzioni avanzate.</h2>
       </div>
-      <div class="compare-table modern-compare" role="table" aria-label="Confronto tra Spelio Free e Spelio Premium">
-        <div class="compare-row compare-head" role="row">
-          <div role="columnheader">Funzionalit&agrave;</div>
-          <div role="columnheader">Free</div>
-          <div role="columnheader">Premium</div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Pianificazione spese future</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Entrate e uscite</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Grafici base</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Lista desideri</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Un obiettivo di risparmio</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Note spese</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Riepilogo annuale</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Fino a 12 mesi</div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Mesi illimitati</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Entrate e spese ricorrenti</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Obiettivi multipli</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Categorie personalizzate</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Alert intelligenti</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Grafici avanzati</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
-        <div class="compare-row" role="row">
-          <div role="cell">Trasforma desiderio in obiettivo</div>
-          <div role="cell"><span class="compare-status no" aria-label="Non incluso">&#10005;</span></div>
-          <div role="cell"><span class="compare-status yes" aria-label="Incluso">&#10003;</span></div>
-        </div>
+      <div class="compare-table modern-compare" role="table" aria-label="Confronto tra Spelio Free e Spelio Premium" data-i18n-attr="aria-label:compare.aria">
+        <div class="compare-row compare-head" role="row"><div role="columnheader" data-i18n="compare.header.feature">Funzionalita</div><div role="columnheader">Free</div><div role="columnheader">Premium</div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.futureExpenses">Pianificazione spese future</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.inOut">Entrate e uscite</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.baseCharts">Grafici base</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.wishlist">Lista desideri</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.oneGoal">Un obiettivo di risparmio</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.notes">Note spese</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.yearly">Riepilogo annuale</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.twelveMonths">Fino a 12 mesi</div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.unlimitedMonths">Mesi illimitati</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.recurring">Entrate e spese ricorrenti</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.multipleGoals">Obiettivi multipli</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.customCategories">Categorie personalizzate</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.smartAlerts">Alert intelligenti</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.advancedCharts">Grafici avanzati</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
+        <div class="compare-row" role="row"><div role="cell" data-i18n="compare.wishToGoal">Trasforma desiderio in obiettivo</div><div role="cell"><span class="compare-status no" aria-label="Non incluso" data-i18n-attr="aria-label:compare.notIncluded">&#10005;</span></div><div role="cell"><span class="compare-status yes" aria-label="Incluso" data-i18n-attr="aria-label:compare.included">&#10003;</span></div></div>
       </div>
     </section>
 
-    <section class="premium-cta section-shell" aria-label="Prezzi Spelio Premium">
+    <section class="premium-cta section-shell" aria-label="Prezzi Spelio Premium" data-i18n-attr="aria-label:premium.cta.aria">
       <div class="premium-price-copy">
-        <p class="eyebrow">Premium</p>
-        <h2>Sblocca la pianificazione avanzata.</h2>
-        <p>Scegli il piano mensile oppure il piano annuale, pensato per chi usa Spelio tutto l'anno.</p>
+        <p class="eyebrow" data-i18n="premium.cta.eyebrow">Premium</p>
+        <h2 data-i18n="premium.cta.title">Sblocca la pianificazione avanzata.</h2>
+        <p data-i18n="premium.cta.text">Scegli il piano mensile oppure il piano annuale, pensato per chi usa Spelio tutto l'anno.</p>
       </div>
       <div class="price-cards">
-        <article class="price-card">
-          <span>Mensile</span>
-          <strong>2,99 &euro;/mese</strong>
-          <p>Pagamento flessibile, mese per mese.</p>
-        </article>
-        <article class="price-card highlighted-price">
-          <span>Annuale</span>
-          <strong>19,99 &euro;/anno</strong>
-          <p>Il piano pi&ugrave; conveniente.</p>
-          <em>Risparmi circa il 44% rispetto al mensile.</em>
-        </article>
+        <article class="price-card"><span data-i18n="premium.cta.monthly">Mensile</span><strong><span data-price="monthly">&euro;2.99</span><span data-i18n="premium.price.monthSuffix">/mese</span></strong><p data-i18n="premium.cta.monthlyText">Pagamento flessibile, mese per mese.</p></article>
+        <article class="price-card highlighted-price"><span data-i18n="premium.cta.annual">Annuale</span><strong><span data-price="annual">&euro;19.99</span><span data-i18n="premium.price.yearSuffix">/anno</span></strong><p data-i18n="premium.cta.annualText">Il piano piu conveniente.</p><em data-i18n="premium.cta.savings">Risparmi circa il 44% rispetto al mensile.</em></article>
       </div>
     </section>
 
     <section id="screenshots" class="screenshots section-shell">
       <div class="section-heading">
-        <p class="eyebrow">Screenshot app</p>
-        <h2>Le schermate reali di Spelio, pronte da esplorare.</h2>
+        <p class="eyebrow" data-i18n="screens.eyebrow">Screenshot app</p>
+        <h2 data-i18n="screens.title">Le schermate reali di Spelio, pronte da esplorare.</h2>
       </div>
       <div class="screenshot-grid">
-        <article class="screenshot-card">
-          <figure class="phone-frame">
-            <div class="phone-screen">
-              <img src="assets/screenshots/home.jpg" width="1080" height="2002" loading="lazy" decoding="async" alt="Home completa di Spelio con riepilogo del mese, budget e movimenti recenti">
-            </div>
-          </figure>
-          <h3>Dashboard</h3>
-          <p>Una panoramica chiara del mese, con budget e movimenti sempre leggibili.</p>
-        </article>
-        <article class="screenshot-card">
-          <figure class="phone-frame">
-            <div class="phone-screen">
-              <img src="assets/screenshots/month-detail.jpg" width="1080" height="2029" loading="lazy" decoding="async" alt="Schermata completa del dettaglio mensile di Spelio con entrate, uscite e pianificazione del periodo">
-            </div>
-          </figure>
-          <h3>Pianificazione</h3>
-          <p>Dettagli mensili ordinati per capire entrate, uscite e saldo previsto.</p>
-        </article>
-        <article class="screenshot-card premium-screenshot">
-          <figure class="phone-frame">
-            <div class="phone-screen">
-              <img src="assets/screenshots/advanced-charts.jpg" width="1080" height="2015" loading="lazy" decoding="async" alt="Schermata Premium completa di Spelio con grafici avanzati e analisi del budget">
-            </div>
-          </figure>
-          <h3>Premium avanzato</h3>
-          <p>Grafici e insight avanzati per leggere meglio l'andamento delle finanze.</p>
-        </article>
+        <article class="screenshot-card"><figure class="phone-frame"><div class="phone-screen"><img src="assets/screenshots/home.jpg" width="1080" height="2002" loading="lazy" decoding="async" alt="Home completa di Spelio con riepilogo del mese, budget e movimenti recenti" data-i18n-attr="alt:screens.dashboard.alt"></div></figure><h3 data-i18n="screens.dashboard.title">Dashboard</h3><p data-i18n="screens.dashboard.text">Una panoramica chiara del mese, con budget e movimenti sempre leggibili.</p></article>
+        <article class="screenshot-card"><figure class="phone-frame"><div class="phone-screen"><img src="assets/screenshots/month-detail.jpg" width="1080" height="2029" loading="lazy" decoding="async" alt="Schermata completa del dettaglio mensile di Spelio con entrate, uscite e pianificazione del periodo" data-i18n-attr="alt:screens.planning.alt"></div></figure><h3 data-i18n="screens.planning.title">Pianificazione</h3><p data-i18n="screens.planning.text">Dettagli mensili ordinati per capire entrate, uscite e saldo previsto.</p></article>
+        <article class="screenshot-card premium-screenshot"><figure class="phone-frame"><div class="phone-screen"><img src="assets/screenshots/advanced-charts.jpg" width="1080" height="2015" loading="lazy" decoding="async" alt="Schermata Premium completa di Spelio con grafici avanzati e analisi del budget" data-i18n-attr="alt:screens.premium.alt"></div></figure><h3 data-i18n="screens.premium.title">Premium avanzato</h3><p data-i18n="screens.premium.text">Grafici e insight avanzati per leggere meglio l'andamento delle finanze.</p></article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <a class="brand footer-brand" href="index.html">
-        <img src="assets/app_logo_mark.png" alt="" class="brand-mark">
-        <span>Spelio</span>
-      </a>
-      <p>App di finanza personale per pianificare entrate, spese, risparmi e budget.</p>
-      <nav aria-label="Documenti legali">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Service</a>
-      </nav>
+      <a class="brand footer-brand" href="index.html"><img src="assets/app_logo_mark.png" alt="" class="brand-mark"><span>Spelio</span></a>
+      <p data-i18n="footer.text">App di finanza personale per pianificare entrate, spese, risparmi e budget.</p>
+      <nav aria-label="Documenti legali" data-i18n-attr="aria-label:footer.legalAria"><a href="privacy.html" data-i18n="footer.privacy">Informativa privacy</a><a href="terms.html" data-i18n="footer.terms">Termini di servizio</a></nav>
     </div>
   </footer>
+  <script src="localize.js"></script>
 </body>
 </html>

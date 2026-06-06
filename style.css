@@ -207,13 +207,13 @@ p {
 
 .phone-shot {
   position: relative;
-  width: min(326px, 78vw);
+  display: flex;
+  width: min(304px, 74vw);
   margin: 0;
-  padding: 12px;
-  overflow: hidden;
+  padding: 10px;
   border: 10px solid #172131;
   border-radius: 42px;
-  background: #172131;
+  background: #f8fbfd;
   box-shadow: 0 28px 80px rgba(23, 61, 95, 0.26);
 }
 
@@ -242,14 +242,14 @@ p {
 .phone-shot img {
   display: block;
   width: 100%;
-  aspect-ratio: 1080 / 2015;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 29px;
   background: #f8fbfd;
 }
 
 .hero-phone {
-  width: min(334px, 80vw);
+  width: min(312px, 76vw);
   transform: rotate(1.5deg);
 }
 
@@ -400,7 +400,7 @@ p {
 }
 
 .screenshot-phone {
-  width: min(100%, 292px);
+  width: min(100%, 258px);
   border-width: 8px;
   border-radius: 36px;
   box-shadow: 0 18px 48px rgba(23, 61, 95, 0.16);
@@ -542,8 +542,8 @@ p {
   }
 
   .phone-shot {
-    width: min(300px, 86vw);
-    padding: 10px;
+    width: min(286px, 84vw);
+    padding: 8px;
     border-width: 8px;
     border-radius: 36px;
   }
@@ -553,7 +553,7 @@ p {
   }
 
   .screenshot-phone {
-    width: min(300px, 82vw);
+    width: min(282px, 82vw);
   }
 
   .footer-inner nav {

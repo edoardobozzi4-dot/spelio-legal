@@ -83,7 +83,6 @@
     'compare.inOut': 'Income and expenses',
     'compare.baseCharts': 'Basic charts',
     'compare.wishlist': 'Wish list',
-    'compare.oneGoal': 'Single savings goal',
     'compare.monthlySummary': 'Monthly summary',
     'compare.notes': 'Expense notes',
     'compare.yearly': 'Annual summary',

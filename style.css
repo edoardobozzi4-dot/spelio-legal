@@ -589,10 +589,9 @@ p {
   max-width: 100%;
   margin: 10px 0 6px;
   color: var(--brand-deep);
-  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  font-size: clamp(1.42rem, 2.35vw, 2.05rem);
   line-height: 1.05;
-  overflow-wrap: anywhere;
-  word-break: normal;
+  white-space: nowrap;
 }
 
 .price-card p {

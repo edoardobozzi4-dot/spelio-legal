@@ -586,10 +586,13 @@ p {
 
 .price-card strong {
   display: block;
+  max-width: 100%;
   margin: 10px 0 6px;
   color: var(--brand-deep);
-  font-size: clamp(1.85rem, 3.3vw, 2.55rem);
-  line-height: 1;
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
 
 .price-card p {

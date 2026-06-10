@@ -110,7 +110,6 @@
     'premium.pricingNote': '*Final price may vary depending on your country, local currency and applicable taxes. The exact amount is displayed in the app store before purchase.',
     'download.eyebrow': 'Download app',
     'download.title': 'Keep Spelio with you.',
-    'download.text': 'Download the app from the official stores when available. The links are ready to be updated.',
     'download.aria': 'Download Spelio app',
     'download.google': 'Google Play',
     'download.apple': 'Apple App Store',

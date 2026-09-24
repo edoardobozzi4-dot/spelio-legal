@@ -3,20 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Spelio, app di budgeting per pianificare entrate, spese, obiettivi di risparmio e abbonamenti Premium." data-i18n-attr="content:meta.home.description">
-  <title data-i18n="meta.home.title">Spelio | App di budgeting</title>
+  <meta name="description" content="Spelio è l'app di budgeting per pianificare in anticipo entrate, spese, budget e obiettivi. Disponibile per iOS e Android." data-i18n-attr="content:meta.home.description">
+  <title data-i18n="meta.home.title">Spelio | App di budgeting per iOS e Android</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="style.css?v=hero-mockup-rebalance">
+  <link rel="stylesheet" href="style.css?v=mobile-navigation">
 </head>
 <body data-page="home">
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Spelio home">
-      <img src="assets/app_logo_mark.png" alt="" class="brand-mark">
+      <img src="assets/app_logo_mark.png" width="256" height="256" alt="" class="brand-mark">
       <span>Spelio</span>
     </a>
-    <nav class="site-nav" aria-label="Navigazione principale" data-i18n-attr="aria-label:nav.aria">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Apri menu di navigazione">
+      <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+    <nav id="primary-navigation" class="site-nav" aria-label="Navigazione principale" data-i18n-attr="aria-label:nav.aria">
       <a href="#features" data-i18n="nav.features">Funzioni</a>
       <a href="#premium" data-i18n="nav.premium">Premium</a>
       <a href="#download" data-i18n="nav.download">Download</a>
@@ -29,17 +32,25 @@
   <main>
     <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="eyebrow" data-i18n="home.hero.eyebrow">Budgeting chiaro, decisioni più serene</p>
-        <h1>Spelio</h1>
-        <p class="hero-lede" data-i18n="home.hero.lede">Organizza entrate, spese future, obiettivi di risparmio e budget in una dashboard semplice da consultare ogni giorno.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#screenshots" data-i18n="home.hero.primaryCta">Scopri l'app</a>
-          <a class="button button-secondary" href="#premium" data-i18n="home.hero.secondaryCta">Vedi Premium</a>
-        </div>
+        <p class="eyebrow" data-i18n="home.hero.eyebrow">Spelio · Budgeting chiaro, decisioni più serene</p>
+        <h1 data-i18n="home.hero.title">Non limitarti a tracciare le spese. Pianificale.</h1>
+        <p class="hero-lede" data-i18n="home.hero.lede">Pianifica in anticipo entrate, spese, budget e obiettivi di risparmio, in un'unica app semplice da usare.</p>
         <div class="trust-row" aria-label="Punti chiave" data-i18n-attr="aria-label:home.hero.trustAria">
           <span data-i18n="home.hero.trust.monthly">Pianificazione mensile</span>
           <span data-i18n="home.hero.trust.goals">Obiettivi di risparmio</span>
           <span data-i18n="home.hero.trust.premium">Premium via App Store e Google Play</span>
+        </div>
+        <div class="store-badges store-badges--hero" aria-label="Scarica Spelio" data-i18n-attr="aria-label:download.aria">
+          <a class="store-badge-link store-badge-link--apple" href="https://apps.apple.com/us/app/spelio-budget-planner-goals/id6780227505" target="_blank" rel="noopener noreferrer" aria-label="Scarica Spelio dall'App Store" data-i18n-attr="aria-label:store.apple.aria" data-store="app-store" data-placement="hero">
+            <img class="store-badge-image" src="assets/store-badges/app-store-it.svg" width="250" height="83" alt="Scarica su App Store" data-i18n-attr="src:store.apple.asset;alt:store.apple.alt">
+          </a>
+          <a class="store-badge-link store-badge-link--google" href="https://play.google.com/store/apps/details?id=com.edobozzi.spelio" target="_blank" rel="noopener noreferrer" aria-label="Scarica Spelio da Google Play" data-i18n-attr="aria-label:store.google.aria" data-store="google-play" data-placement="hero">
+            <img class="store-badge-image" src="assets/store-badges/google-play-it.png" width="646" height="250" alt="Disponibile su Google Play" data-i18n-attr="src:store.google.asset;alt:store.google.alt">
+          </a>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#screenshots" data-i18n="home.hero.primaryCta">Scopri l'app</a>
+          <a class="button button-secondary" href="#premium" data-i18n="home.hero.secondaryCta">Vedi Premium</a>
         </div>
       </div>
 
@@ -83,6 +94,22 @@
           <h3 data-i18n="home.features.insights.title">Riepiloghi leggibili</h3>
           <p data-i18n="home.features.insights.text">Trasforma numeri sparsi in indicazioni pratiche per decidere con più controllo.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="mid-download section-shell" aria-labelledby="mid-download-title">
+      <div class="download-copy">
+        <p class="eyebrow" data-i18n="download.mid.eyebrow">Inizia a pianificare</p>
+        <h2 id="mid-download-title" data-i18n="download.mid.title">Il tuo prossimo mese comincia oggi.</h2>
+        <p data-i18n="download.mid.text">Scarica Spelio gratis su iOS o Android.</p>
+      </div>
+      <div class="store-badges" aria-label="Scarica Spelio" data-i18n-attr="aria-label:download.aria">
+        <a class="store-badge-link store-badge-link--apple" href="https://apps.apple.com/us/app/spelio-budget-planner-goals/id6780227505" target="_blank" rel="noopener noreferrer" aria-label="Scarica Spelio dall'App Store" data-i18n-attr="aria-label:store.apple.aria" data-store="app-store" data-placement="features">
+          <img class="store-badge-image" src="assets/store-badges/app-store-it.svg" width="250" height="83" loading="lazy" decoding="async" alt="Scarica su App Store" data-i18n-attr="src:store.apple.asset;alt:store.apple.alt">
+        </a>
+        <a class="store-badge-link store-badge-link--google" href="https://play.google.com/store/apps/details?id=com.edobozzi.spelio" target="_blank" rel="noopener noreferrer" aria-label="Scarica Spelio da Google Play" data-i18n-attr="aria-label:store.google.aria" data-store="google-play" data-placement="features">
+          <img class="store-badge-image" src="assets/store-badges/google-play-it.png" width="646" height="250" loading="lazy" decoding="async" alt="Disponibile su Google Play" data-i18n-attr="src:store.google.asset;alt:store.google.alt">
+        </a>
       </div>
     </section>
 
@@ -165,9 +192,13 @@
         <h2 data-i18n="download.title">Porta Spelio sempre con te.</h2>
         <p data-i18n="download.text">Scarica Spelio dagli store ufficiali.</p>
       </div>
-      <div class="download-actions" aria-label="Download app Spelio" data-i18n-attr="aria-label:download.aria">
-        <a class="store-button" href="https://play.google.com/store/apps/details?id=com.edobozzi.spelio" target="_blank" rel="noopener" data-i18n="download.google">Google Play</a>
-        <a class="store-button" href="https://apps.apple.com/us/app/spelio-budget-planner-goals/id6780227505" target="_blank" rel="noopener" data-i18n="download.apple">Apple App Store</a>
+      <div class="store-badges" aria-label="Scarica Spelio" data-i18n-attr="aria-label:download.aria">
+        <a class="store-badge-link store-badge-link--apple" href="https://apps.apple.com/us/app/spelio-budget-planner-goals/id6780227505" target="_blank" rel="noopener noreferrer" aria-label="Scarica Spelio dall'App Store" data-i18n-attr="aria-label:store.apple.aria" data-store="app-store" data-placement="download">
+          <img class="store-badge-image" src="assets/store-badges/app-store-it.svg" width="250" height="83" loading="lazy" decoding="async" alt="Scarica su App Store" data-i18n-attr="src:store.apple.asset;alt:store.apple.alt">
+        </a>
+        <a class="store-badge-link store-badge-link--google" href="https://play.google.com/store/apps/details?id=com.edobozzi.spelio" target="_blank" rel="noopener noreferrer" aria-label="Scarica Spelio da Google Play" data-i18n-attr="aria-label:store.google.aria" data-store="google-play" data-placement="download">
+          <img class="store-badge-image" src="assets/store-badges/google-play-it.png" width="646" height="250" loading="lazy" decoding="async" alt="Disponibile su Google Play" data-i18n-attr="src:store.google.asset;alt:store.google.alt">
+        </a>
       </div>
     </section>
 
@@ -186,12 +217,13 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <a class="brand footer-brand" href="index.html"><img src="assets/app_logo_mark.png" alt="" class="brand-mark"><span>Spelio</span></a>
+      <a class="brand footer-brand" href="index.html"><img src="assets/app_logo_mark.png" width="256" height="256" alt="" class="brand-mark"><span>Spelio</span></a>
       <p data-i18n="footer.text">App di finanza personale per pianificare entrate, spese, risparmi e budget.</p>
       <a class="support-link" href="mailto:support@spelioapp.com" data-i18n="footer.support">support@spelioapp.com</a>
       <nav aria-label="Documenti legali" data-i18n-attr="aria-label:footer.legalAria"><a href="privacy.html" data-i18n="footer.privacy">Informativa privacy</a><a href="terms.html" data-i18n="footer.terms">Termini di servizio</a></nav>
     </div>
   </footer>
-  <script src="localize.js"></script>
+  <script src="localize.js?v=conversion-store-badges"></script>
+  <script src="navigation.js?v=mobile-menu"></script>
 </body>
 </html>

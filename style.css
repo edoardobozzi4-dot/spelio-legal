@@ -1008,11 +1008,11 @@ p {
   .hero {
     padding-top: 14px;
     padding-bottom: 52px;
-    row-gap: 64px;
+    row-gap: 45px;
   }
 
   .hero .eyebrow {
-    margin-bottom: 8px;
+    margin-bottom: 18px;
   }
 
   .hero-actions .button {
@@ -1020,31 +1020,31 @@ p {
   }
 
   .hero-actions {
-    margin-top: 14px;
+    margin-top: 20px;
   }
 
   .hero h1 {
-    margin-bottom: 16px;
-    font-size: 1.9rem;
-    line-height: 1.08;
+    margin-bottom: 24px;
+    font-size: 2.15rem;
+    line-height: 1.04;
   }
 
   .hero-lede {
     margin-bottom: 0;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.55;
   }
 
   .store-badges--hero {
-    margin-top: 18px;
+    margin-top: 26px;
   }
 
   .trust-row {
     flex-direction: column;
     align-items: flex-start;
     row-gap: 8px;
-    margin-top: 18px;
-    font-size: 0.82rem;
+    margin-top: 24px;
+    font-size: 0.875rem;
     font-weight: 650;
   }
 

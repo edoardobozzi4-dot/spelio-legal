@@ -1060,6 +1060,11 @@ p {
     height: 50.4px;
   }
 
+  .store-badge-link--google .store-badge-image[src$="google-play-en.png"] {
+    height: 57px;
+    width: auto;
+  }
+
   .feature-grid,
   .premium-feature-grid,
   .screenshot-grid,

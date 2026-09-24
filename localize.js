@@ -33,7 +33,7 @@
     'home.hero.trustAria': 'Key points',
     'home.hero.trust.monthly': 'Monthly planning',
     'home.hero.trust.goals': 'Savings goals',
-    'home.hero.trust.premium': 'Premium via App Store and Google Play',
+    'home.hero.trust.premium': 'More tools with Spelio Premium',
     'home.preview.aria': 'Spelio app interface preview',
     'home.preview.alt': 'Full Spelio home screen with budget summary and monthly overview',
     'home.preview.badge': 'Budget',

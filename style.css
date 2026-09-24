@@ -1006,13 +1006,13 @@ p {
   }
 
   .hero {
-    padding-top: 14px;
+    padding-top: 34px;
     padding-bottom: 52px;
     row-gap: 45px;
   }
 
   .hero .eyebrow {
-    margin-bottom: 18px;
+    margin-bottom: 30px;
   }
 
   .hero-actions .button {
@@ -1024,7 +1024,7 @@ p {
   }
 
   .hero h1 {
-    margin-bottom: 24px;
+    margin-bottom: 34px;
     font-size: 2.15rem;
     line-height: 1.04;
   }
